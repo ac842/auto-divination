@@ -21,7 +21,7 @@ function SEO({ description, lang, meta, title, image }) {
 
   const metaDescription = description || site.siteMetadata.description;
   const defaultTitle = site.siteMetadata.title;
-  const imageUrl = `${site.siteMetadata.siteUrl}${image || '/images/default-image.jpg'}`; // 假設有一個預設圖片
+  const imageUrl = `${site.siteMetadata.siteUrl}${image || '/images/icon.png'}`; // 假設有一個預設圖片
 
   return (
     <Helmet
